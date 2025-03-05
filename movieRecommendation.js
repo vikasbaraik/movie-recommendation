@@ -1,4 +1,5 @@
 //Implement all your function here to make it a working application.
+require('dotenv').config();
 const genresDropdown = document.getElementById("genres");
 const playBtn = document.getElementById("playBtn");
 const likeBtn = document.getElementById("likeBtn");
